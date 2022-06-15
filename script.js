@@ -16,4 +16,9 @@ function nextImage() {
 
   // slideshowImages[currentImageCounter].style.display = "block";
   slideshowImages[currentImageCounter].style.opacity = 1;
+
+
+
+  
+
 }
