@@ -2,12 +2,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
-  height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+  width: 100%;
+  height: 100%; 
   object-fit: cover;
   z-index:-1;
-  /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
-  /* display: none; */
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
 }
