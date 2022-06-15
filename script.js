@@ -1,6 +1,6 @@
 const slideshowImages = document.querySelectorAll(".slideshow img");
 
-const nextImageDelay = 10000;
+const nextImageDelay = 5000;
 let currentImageCounter = 0; 
 slideshowImages[currentImageCounter].style.opacity = 1;
 setInterval(nextImage, nextImageDelay);
