@@ -50,3 +50,8 @@ video {
   margin-top: -25px;
 } */
 
+body::after{
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  content:
+  url(https://aumet.com/wp-content/uploads/2022/06/Adal.mp4,https://aumet.com/wp-content/uploads/2022/06/aumet7.mp4);   
+}
